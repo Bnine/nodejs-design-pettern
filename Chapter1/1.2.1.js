@@ -19,7 +19,17 @@ for (let i=0; i < 10; i++) {
 
 console.log("after i => "+i);
 */
-
+/*
 const x = 'This will never change';
 x = 'abcd';
 console.log(x);
+*/
+/*
+const x = {};
+x.name = 'john';
+console.log(x);
+x = null;
+*/
+
+const path = require('path');
+let path = './sad/asds';
