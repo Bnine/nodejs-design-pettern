@@ -28,7 +28,8 @@ function readJsonFile(filename, callback) {
   })
 }
 
-readJsonFile('../data/2.1.3.json', (err, data) => {
+readJsonFile('../data/2.1.2-1.txt', (err, data) => {
+//readJsonFile('../data/2.1.3.json', (err, data) => {
   console.log('data : ' + JSON.stringify(data));
 });
 
